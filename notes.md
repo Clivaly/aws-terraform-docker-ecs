@@ -45,3 +45,6 @@
 
 ## Terraform AWS ECS Module
 [Guide](https://registry.terraform.io/modules/terraform-aws-modules/ecs/aws/3.5.0)
+
+## Terraform AWS ECS Task Definition
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition)
