@@ -18,3 +18,6 @@
 
 ## Terraform AWS Security Group
 [Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
+
+## Terraform AWS Security Group Rules
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule)
