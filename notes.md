@@ -30,3 +30,15 @@
 
 ## Terraform AWS IAM-Instance-Profile
 [Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_instance_profile)
+
+## Terraform AWS Application Load Balancer
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb)
+
+## Terraform AWS Application Load Balancer Listener
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_listener)
+
+## Terraform AWS Application Load Balancer Target Group
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/lb_target_group)
+
+## AWS Create Target Group
+[Guide](https://docs.aws.amazon.com/cli/latest/reference/elbv2/create-target-group.html)

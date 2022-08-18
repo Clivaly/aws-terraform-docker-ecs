@@ -3,3 +3,7 @@ module "prod" {
 
   repository_name = "prod"
 }
+
+output "IP_alb" {
+  value = module.prod.IP
+}
