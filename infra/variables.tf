@@ -5,3 +5,7 @@ variable "repository_name" {
 variable "officeIAM" {
   type = string
 }
+
+variable "environment" {
+  type = string
+}

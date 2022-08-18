@@ -42,3 +42,6 @@
 
 ## AWS Create Target Group
 [Guide](https://docs.aws.amazon.com/cli/latest/reference/elbv2/create-target-group.html)
+
+## Terraform AWS ECS Module
+[Guide](https://registry.terraform.io/modules/terraform-aws-modules/ecs/aws/3.5.0)
