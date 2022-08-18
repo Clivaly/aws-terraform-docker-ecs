@@ -21,3 +21,12 @@
 
 ## Terraform AWS Security Group Rules
 [Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group_rule)
+
+## Terraform AWS IAM-Role
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role)
+
+## Terraform AWS IAM-Role-Policy
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_role_policy)
+
+## Terraform AWS IAM-Instance-Profile
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/iam_instance_profile)
