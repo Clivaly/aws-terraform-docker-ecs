@@ -15,3 +15,6 @@
 
 ## Terraform AWS VPC
 [Guide](https://registry.terraform.io/modules/terraform-aws-modules/vpc/aws/latest)
+
+## Terraform AWS Security Group
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/security_group)
