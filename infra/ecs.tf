@@ -39,7 +39,7 @@ resource "aws_ecs_task_definition" "Django-API" {
 
 resource "aws_ecs_service" "Django-API" {
   name            = "Django-API"
-  cluster         = module.ecs.cluster_id
+  cluster         = module.ecs.ecs_cluster_id
   task_definition = aws_ecs_task_definition.Django-API.arn
   desired_count   = 3
 
