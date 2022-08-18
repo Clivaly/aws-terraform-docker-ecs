@@ -36,3 +36,16 @@ resource "aws_ecs_task_definition" "Django-API" {
         ]
     )
 }
+
+resource "aws_ecs_service" "Django-API" {
+  name            = "Django-API"
+  cluster         = module.ecs.cluster_id
+  task_definition = aws_ecs_task_definition.Django-API.arn
+  desired_count   = 3
+
+  load_balancer {
+    target_group_arn = aws_lb_target_group.target_ecs.arn
+    container_name   = "production"
+    container_port   = 8000
+  }
+}

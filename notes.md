@@ -48,3 +48,6 @@
 
 ## Terraform AWS ECS Task Definition
 [Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_task_definition)
+
+## Terraform AWS ECS Service
+[Guide](https://registry.terraform.io/providers/hashicorp/aws/latest/docs/resources/ecs_service)
